@@ -1,11 +1,12 @@
 part of 'pages.dart';
 
-class SignIn extends StatefulWidget {
+class SignUp extends StatefulWidget {
   @override
-  _SignInState createState() => _SignInState();
+  _SignUpState createState() => _SignUpState();
 }
 
-class _SignInState extends State<SignIn> {
+class _SignUpState extends State<SignUp> {
+  TextEditingController nameController = TextEditingController();
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
   @override
@@ -46,12 +47,35 @@ class _SignInState extends State<SignIn> {
                     margin: EdgeInsets.only(top: 50),
                     width: double.infinity,
                     child: Text(
-                      'Masuk',
+                      'Buat Akun',
                       style: TextStyle(
                           fontFamily: 'AvenirRoman',
                           color: Colors.white,
                           fontWeight: FontWeight.bold,
                           fontSize: 30),
+                    ),
+                  ),
+                  Container(
+                    width: double.infinity,
+                    margin: EdgeInsets.fromLTRB(15, 30, 15, 10),
+                    decoration: BoxDecoration(
+                      border: Border(
+                        bottom: BorderSide(color: Colors.white, width: 3),
+                      ),
+                    ),
+                    child: TextField(
+                      controller: nameController,
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: 'Nama Lengkap',
+                        hintStyle: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'AvenirRoman',
+                        ),
+                      ),
                     ),
                   ),
                   Container(
@@ -102,6 +126,30 @@ class _SignInState extends State<SignIn> {
                     ),
                   ),
                   Container(
+                    width: double.infinity,
+                    margin: EdgeInsets.fromLTRB(15, 15, 15, 10),
+                    decoration: BoxDecoration(
+                      border: Border(
+                        bottom: BorderSide(color: Colors.white, width: 3),
+                      ),
+                    ),
+                    child: TextField(
+                      controller: passwordController,
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: 'Konfirmasi kata sandi',
+                        hintStyle: TextStyle(
+                          color: Colors.white,
+                          fontFamily: 'AvenirRoman',
+                        ),
+                      ),
+                      obscureText: true,
+                    ),
+                  ),
+                  Container(
                     margin: EdgeInsets.fromLTRB(15, 90, 15, 20),
                     padding: EdgeInsets.all(5),
                     decoration: BoxDecoration(
@@ -110,13 +158,13 @@ class _SignInState extends State<SignIn> {
                     ),
                     child: FlatButton(
                       onPressed: () {
-                        // Get.to(SignIn());
+                        Get.to(SignIn());
                       },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            "Masuk",
+                            "Daftar",
                             style: TextStyle(
                               fontFamily: 'AvenirRoman',
                               color: Colors.white,
@@ -132,10 +180,10 @@ class _SignInState extends State<SignIn> {
                     margin: EdgeInsets.symmetric(horizontal: 15),
                     child: FlatButton(
                       onPressed: () {
-                        Get.to(SignUp());
+                        Get.to(SignIn());
                       },
                       child: Text(
-                        'Belum punya akun yang terdaftar? Daftar',
+                        'Sudah punya akun yang terdaftar? Masuk',
                         style: TextStyle(
                           color: Colors.white,
                         ),
