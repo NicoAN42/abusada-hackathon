@@ -17,7 +17,7 @@ class _SplashState extends State<Splash> {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage(
-                    'assets/ifan-bima-dnusKPFnsoY-unsplash.jpg',
+                    'assets/1.jpg',
                   ),
                   fit: BoxFit.cover,
                   colorFilter: ColorFilter.mode(
