@@ -1,16 +1,8 @@
-# jentara
+# Jentara
+APLIKASI PARIWISATA INDONESIA “JENTARA : JENDELA NUSANTARA” BERBASIS MOBILE MENGGUNAKAN ANDROID STUDIO UNTUK TURIS DAN MEMBANTU EKONOMI UMKM PARIWISATA
 
-A new Flutter project.
+## 
+Kami disini membuat aplikasi yang bernama Jentara : Jendela Nusantara, aplikasi ini mengajak kita untuk menjelajahi pariwisata di Indonesia, dan melihat berbagai ekonomi mikro disekitar tempat pariwisata tersebut, sekaligus mengembangkan dan melestarikan pariwisaata Indonesia. Bukan hanya sekedar aplikasi untuk platform informasi, kita juga bisa menambahkan tempat wisata baru, yang mungkin belum pernah di eksplorasi oleh orang lain dan mungkin juga belum dikelola oleh pemerintah setempat. Aplikasi ini mengusung tema peningkatan ekonomi di sektor pariwisata juga pelestarian pariwisata daerah, diharapkan ini menjadi ladang ekonomi mikro untuk Indonesia.
 
-## Getting Started
+Aplikasi yang kami buat ini mempunyai alur sederhana yang penggunanya nanti bisa melakukan pemesanan tiket wisata, hingga menambah tempat pariwisata baru yang belum pernah dikelola oleh pemerintah. Aplikasi ini juga menampilkan beberapa informasi untuk pencegahan penularan penyakit covid-19 di setiap tempat pariwisata, seperti halnya menampilkan info jumlah orang yang sedang berapa di tempat wisata tersebut dan informasi batasan mengenai kegiatan yang harus sesuai protokol kesehatan yang sudah disampaikan oleh pemerintah pusat. Di aplikasi ini juga memberikan fitur untuk mengoleksi berbagai macam tempat wisata daerah di Indonesia. Dan terdapat informasi berupa deskripsi dari setiap UMKM disekitar tempat pariwisata di Indonesia, seperti penginapan/perhotelan, kuliner dan budaya.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
