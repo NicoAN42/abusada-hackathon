@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
                           alignment: Alignment.topLeft,
                           margin: EdgeInsets.fromLTRB(0, 10, 0, 10),
                           child: Text(
-                            "Jelajah",
+                            "Beranda",
                             style: TextStyle(
                               fontFamily: "AvenirBlack",
                               fontWeight: FontWeight.w300,
@@ -136,17 +136,22 @@ class _HomeState extends State<Home> {
                         ),
                         child: Column(
                           children: [
-                            Container(
-                              height: 150,
-                              width: 150,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(8),
-                                ),
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                      'assets/miles-storey-X45VKpWV7hw-unsplash.jpg'),
-                                  fit: BoxFit.cover,
+                            GestureDetector(
+                              onTap: () {
+                                Get.to(DetailPlace());
+                              },
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(
+                                    Radius.circular(8),
+                                  ),
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                        'assets/miles-storey-X45VKpWV7hw-unsplash.jpg'),
+                                    fit: BoxFit.cover,
+                                  ),
                                 ),
                               ),
                             ),
@@ -190,17 +195,22 @@ class _HomeState extends State<Home> {
                         padding: EdgeInsets.only(left: 10),
                         child: Column(
                           children: [
-                            Container(
-                              height: 150,
-                              width: 150,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(8),
-                                ),
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                      'assets/kevin-zhang-dzFB8xeWg1M-unsplash.jpg'),
-                                  fit: BoxFit.cover,
+                            GestureDetector(
+                              onTap: () {
+                                Get.to(DetailPlace());
+                              },
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(
+                                    Radius.circular(8),
+                                  ),
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                        'assets/kevin-zhang-dzFB8xeWg1M-unsplash.jpg'),
+                                    fit: BoxFit.cover,
+                                  ),
                                 ),
                               ),
                             ),
@@ -244,17 +254,22 @@ class _HomeState extends State<Home> {
                         padding: EdgeInsets.only(left: 10),
                         child: Column(
                           children: [
-                            Container(
-                              height: 150,
-                              width: 150,
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.all(
-                                  Radius.circular(8),
-                                ),
-                                image: DecorationImage(
-                                  image: AssetImage(
-                                      'assets/sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg'),
-                                  fit: BoxFit.cover,
+                            GestureDetector(
+                              onTap: () {
+                                Get.to(DetailPlace());
+                              },
+                              child: Container(
+                                height: 150,
+                                width: 150,
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.all(
+                                    Radius.circular(8),
+                                  ),
+                                  image: DecorationImage(
+                                    image: AssetImage(
+                                        'assets/sebastian-pena-lambarri-U_i6h9Y50wQ-unsplash.jpg'),
+                                    fit: BoxFit.cover,
+                                  ),
                                 ),
                               ),
                             ),
@@ -307,7 +322,7 @@ class _HomeState extends State<Home> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Kisah Traveller",
+                    "Kisah Pengunjung",
                     style: TextStyle(
                       fontFamily: "AvenirBlack",
                       fontWeight: FontWeight.bold,

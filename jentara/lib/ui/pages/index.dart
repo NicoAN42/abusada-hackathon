@@ -35,16 +35,16 @@ class _IndexState extends State<Index> {
                   child: Home(),
                 ),
                 Center(
-                  child: Text("Dompet"),
+                  child: Text("Masih dalam pengembangan"),
                 ),
                 Center(
-                  child: Text("Jelajah"),
+                  child: Discover(),
                 ),
                 Center(
-                  child: Text("Penyimpanan"),
+                  child: Text("Masih dalam pengembangan"),
                 ),
                 Center(
-                  child: Text("Profil"),
+                  child: Text("Masih dalam pengembangan"),
                 ),
               ],
             ),

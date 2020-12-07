@@ -110,7 +110,7 @@ class _SignInState extends State<SignIn> {
                     ),
                     child: FlatButton(
                       onPressed: () {
-                        // Get.to(SignIn());
+                        Get.to(Index());
                       },
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.center,
